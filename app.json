@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Vistora",
+    "slug": "vistora_app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "description": "Vistora shopping app",
+    "icon": "./assets/logo/appstore.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo/appstore.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.sd04.vistoraApp"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.sd_04.vistora_app",
+      "permissions": [
+        "CAMERA",
+        "LOCATION",
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/appstore.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7da8a299-b09f-4e06-85a7-907307ddc87c"
+      }
+    }
+  }
+}
