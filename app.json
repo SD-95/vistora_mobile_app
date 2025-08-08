@@ -17,7 +17,8 @@
     ],
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "checkAutomatically": "ON_LOAD"
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/7da8a299-b09f-4e06-85a7-907307ddc87c"
     },
     "runtimeVersion": {
       "policy": "appVersion"
@@ -30,6 +31,9 @@
       "versionCode": 1,
       "package": "com.sd_04.vistora_app",
       "permissions": [
+        "CAMERA",
+        "LOCATION",
+        "INTERNET",
         "CAMERA",
         "LOCATION",
         "INTERNET"
